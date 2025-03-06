@@ -6,15 +6,16 @@
 }
 .header-nav-item{
     display: flex;
+    justify-content: space-between;
     column-gap: 60px;
     align-items: center;
-    justify-content: space-between;
 }
 .header-nav-list{
     align-items: center;
 }
 .header-nav-title-icon{
     margin-right: 30px;
+    padding-top: 10px;
 }
 .header-nav-title{
     font-size: 20px;
