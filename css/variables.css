@@ -1,0 +1,18 @@
+:root{
+    --font-family: "Roboto", sans-serif;
+    --second-family: "Ubuntu", sans-serif;
+
+    --color-light: #FFFFFF;
+    --color-dark: #4C5866;
+    --color-accent: #7875FE;
+    --color-title: #666666;
+    --color-text: #85859B;
+
+    --container-width: 1110px;
+    --container-padding-x: 15px;
+
+    --transition-duration: 0.2s;
+
+    --header-height: 80px;
+
+}
