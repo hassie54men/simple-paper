@@ -4,6 +4,7 @@
 
 @import "./blocks/header.css";
 @import "./blocks/presentation.css";
+@import "./blocks/white-paper.css";
 
 
 body{
@@ -44,4 +45,8 @@ a{
     text-align: center;
     color: var(--color-accent);
     background-color: transparent;
+}
+.main{
+    border-top: 1px solid #DDDDDD;
+    padding-top: 60px;
 }
