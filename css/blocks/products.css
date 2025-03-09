@@ -31,26 +31,34 @@
 .products-link::after{
     content: url("/icons/Arrow 1.svg");
     padding-left: 6px;
+    transition-duration: var(--transition-duration);
 }
 .products-link:hover{
     color: var(--color-accent-dark);
+    transition-duration: var(--transition-duration);
 }
 .products-link:hover::after{
     content: url("/icons/Arrow 2.svg");
+    transition-duration: var(--transition-duration);
 
 }
 .products-link:focus{
     background-color: var(--color-accent-ligth);
     width: 137px;
     height: 31px;
+    transition-duration: var(--transition-duration);
 }
 .products-link:focus::after{
     background-color: var(--color-accent-ligth);
+    transition-duration: var(--transition-duration);
 }
 .products-link:active{
     color: var(--color-accent-dark);
+    transition-duration: var(--transition-duration);
 }
-.products-link:active::after{
+.products-link:active::after {
     content: url("/icons/Arrow 2.svg");
+    transition-duration: var(--transition-duration);
+}
 
 
