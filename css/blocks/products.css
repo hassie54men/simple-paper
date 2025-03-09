@@ -1,0 +1,56 @@
+.products{
+    padding-block: 90px;
+}
+.products-list-art{
+    display: flex;
+    flex-direction: column;
+}
+.products-image{
+    margin-bottom: 20px;
+}
+.products-list{
+    grid-column: span 3;
+}
+.products-title{
+    font-size: 30px;
+    text-transform: none;
+    margin-bottom: 8px;
+}
+.products-quantity{
+    font-size: 14px;
+    color: #b5b5bd;
+    margin-bottom: 8px;
+}
+.products-description{
+    margin-bottom: 20px;
+}
+.products-link{
+    font-size: 20px;
+    color: var(--color-accent);
+}
+.products-link::after{
+    content: url("/icons/Arrow 1.svg");
+    padding-left: 6px;
+}
+.products-link:hover{
+    color: var(--color-accent-dark);
+}
+.products-link:hover::after{
+    content: url("/icons/Arrow 2.svg");
+
+}
+.products-link:focus{
+    background-color: var(--color-accent-ligth);
+    width: 137px;
+    height: 31px;
+}
+.products-link:focus::after{
+    background-color: var(--color-accent-ligth);
+}
+.products-link:active{
+    color: var(--color-accent-dark);
+}
+.products-link:active::after{
+    content: url("/icons/Arrow 2.svg");
+
+

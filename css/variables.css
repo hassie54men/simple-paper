@@ -5,15 +5,17 @@
     --color-light: #FFFFFF;
     --color-dark: #4C5866;
     --color-accent: #7875FE;
+    --color-accent-ligth: #DAD9FB;
+    --color-accent-dark: #4946B4;
     --color-title: #666666;
     --color-text: #85859B;
     --color-light-grey: #EBEBEB;
-    --color-grey: #c0c0c0;;
+    --color-grey: #c0c0c0;
 
     --container-width: 1110px;
     --container-padding-x: 10px;
 
-    --transition-duration: 0.2s;
+    --transition-duration: 0.4s;
 
     --header-height: 80px;
 

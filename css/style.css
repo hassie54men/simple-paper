@@ -5,6 +5,8 @@
 @import "./blocks/header.css";
 @import "./blocks/presentation.css";
 @import "./blocks/white-paper.css";
+@import "./blocks/products.css";
+@import "./blocks/company.css";
 
 
 body{
@@ -49,4 +51,17 @@ a{
 .main{
     border-top: 1px solid #DDDDDD;
     padding-top: 60px;
+}
+.button:hover{
+    background-color: var(--color-accent);
+    color: var(--color-light);
+    transition-duration: var(--transition-duration);
+}
+.button:focus{
+    background-color: var(--color-accent-ligth);
+    color: var(--color-accent);
+}
+.button:active{
+    background-color: var(--color-accent-dark);
+    color: var(--color-light);
 }
