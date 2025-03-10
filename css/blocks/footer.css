@@ -13,12 +13,16 @@
     display: flex;
     gap: 30px;
 }
+.footer__second{
+    background-color: var(--color-light-grey);
+}
 .copyright{
     text-align: center;
     font-size: 13px;
     text-transform: uppercase;
     color: #4c5866;
 }
+
 
 .socials__logo:hover{
     filter: brightness(0) saturate(100%) invert(90%) sepia(10%) saturate(500%) hue-rotate(200deg);
