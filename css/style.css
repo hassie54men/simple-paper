@@ -7,6 +7,8 @@
 @import "./blocks/white-paper.css";
 @import "./blocks/products.css";
 @import "./blocks/company.css";
+@import "./blocks/sketchbook.css";
+@import "./blocks/footer.css";
 
 
 body{

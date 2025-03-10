@@ -4,7 +4,9 @@
 .products-list-art{
     display: flex;
     flex-direction: column;
+    height: 100%;
 }
+
 .products-image{
     margin-bottom: 20px;
 }
@@ -27,6 +29,8 @@
 .products-link{
     font-size: 20px;
     color: var(--color-accent);
+    align-self: flex-start;
+    margin-top: auto;
 }
 .products-link::after{
     content: url("/icons/Arrow 1.svg");
