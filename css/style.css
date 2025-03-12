@@ -10,60 +10,63 @@
 @import "./blocks/sketchbook.css";
 @import "./blocks/footer.css";
 
-
-body{
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.7;
-    color: var(--color-text);
+body {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.7;
+  color: var(--color-text);
 }
 
-.container{
-    max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
-    margin-inline: auto;
-    padding-inline: var(--container-padding-x);
-
+.container {
+  max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
+  margin-inline: auto;
+  padding-inline: var(--container-padding-x);
 }
 
-h1, h2, h3, h4, h5, h6{
-    font-weight: 400;
-    text-transform: uppercase;
-    color: var(--color-title);
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+  text-transform: uppercase;
+  color: var(--color-title);
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-.grid{
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    gap: 30px;
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 30px;
 }
-.button{
-    width: 255px;
-    height: 70px;
-    border: 1px solid #7875fe;
-    padding: 20px 50px;
-    font-size: 20px;
-    text-align: center;
-    color: var(--color-accent);
-    background-color: transparent;
+.button {
+  width: 255px;
+  height: 70px;
+  border: 1px solid #7875fe;
+  padding: 20px 50px;
+  font-size: 20px;
+  text-align: center;
+  color: var(--color-accent);
+  background-color: transparent;
 }
-.main{
-    border-top: 1px solid #DDDDDD;
-    padding-top: 60px;
+.main {
+  border-top: 1px solid #dddddd;
+  padding-top: 60px;
 }
-.button:hover{
-    background-color: var(--color-accent);
-    color: var(--color-light);
-    transition-duration: var(--transition-duration);
+.button:hover {
+  background-color: var(--color-accent);
+  color: var(--color-light);
+  transition-duration: var(--transition-duration);
 }
-.button:focus{
-    background-color: var(--color-accent-ligth);
-    color: var(--color-accent);
+.button:focus {
+  background-color: var(--color-accent-ligth);
+  color: var(--color-accent);
 }
-.button:active{
-    background-color: var(--color-accent-dark);
-    color: var(--color-light);
+.button:active {
+  background-color: var(--color-accent-dark);
+  color: var(--color-light);
 }

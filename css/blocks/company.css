@@ -1,20 +1,19 @@
-.company-name{
-    background-color: var(--color-light-grey);
+.company-name {
+  background-color: var(--color-light-grey);
 }
-.company-images{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 30px;
-    padding-block: 90px;
-    flex-wrap: wrap;
+.company-images {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  padding-block: 90px;
+  flex-wrap: wrap;
 }
-.company-image{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid #c4c4c4;
-    width: 255px;
-    height: 135px;
-
+.company-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #c4c4c4;
+  width: 255px;
+  height: 135px;
 }
