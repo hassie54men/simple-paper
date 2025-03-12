@@ -1,42 +1,41 @@
-.footer__main-footer{
-    background-color: var(--color-dark);
-    height: var(--header-height);
+.footer__main-footer {
+  background-color: var(--color-dark);
+  height: var(--header-height);
 }
-.main-footer-container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-block: 28px;
-    height: 100%
+.main-footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 28px;
+  height: 100%;
 }
-.social__item{
-    display: flex;
-    gap: 30px;
+.social__item {
+  display: flex;
+  gap: 30px;
 }
-.footer__second{
-    background-color: var(--color-light-grey);
+.footer__second {
+  background-color: var(--color-light-grey);
 }
-.copyright{
-    text-align: center;
-    font-size: 13px;
-    text-transform: uppercase;
-    color: #4c5866;
-}
-
-
-.socials__logo:hover{
-    filter: brightness(0) saturate(100%) invert(90%) sepia(10%) saturate(500%) hue-rotate(200deg);
-    transition-duration: var(--transition-duration);
-}
-.socials__logo:focus{
-    transition-duration: var(--transition-duration);
-    outline: none; /* Убираем стандартный outline */
-    background-color: rgba(120, 117, 254, 0.1); /* Цвет фона при фокусе */
-    fill: #7875fe;
-}
-.socials__logo:active{
-    transition-duration: var(--transition-duration);
-    filter: brightness(0) saturate(100%) invert(39%) sepia(98%) saturate(500%) hue-rotate(210deg);
+.copyright {
+  text-align: center;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #4c5866;
 }
 
-
+.socials__logo:hover {
+  filter: brightness(0) saturate(100%) invert(90%) sepia(10%) saturate(500%)
+    hue-rotate(200deg);
+  transition-duration: var(--transition-duration);
+}
+.socials__logo:focus {
+  transition-duration: var(--transition-duration);
+  outline: none; /* Убираем стандартный outline */
+  background-color: rgba(120, 117, 254, 0.1); /* Цвет фона при фокусе */
+  fill: #7875fe;
+}
+.socials__logo:active {
+  transition-duration: var(--transition-duration);
+  filter: brightness(0) saturate(100%) invert(39%) sepia(98%) saturate(500%)
+    hue-rotate(210deg);
+}

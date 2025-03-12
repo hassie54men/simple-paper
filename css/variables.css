@@ -1,22 +1,21 @@
-:root{
-    --font-family: "Roboto", sans-serif;
-    --second-family: "Ubuntu", sans-serif;
+:root {
+  --font-family: "Roboto", sans-serif;
+  --second-family: "Ubuntu", sans-serif;
 
-    --color-light: #FFFFFF;
-    --color-dark: #4C5866;
-    --color-accent: #7875FE;
-    --color-accent-ligth: #DAD9FB;
-    --color-accent-dark: #4946B4;
-    --color-title: #666666;
-    --color-text: #85859B;
-    --color-light-grey: #EBEBEB;
-    --color-grey: #c0c0c0;
+  --color-light: #ffffff;
+  --color-dark: #4c5866;
+  --color-accent: #7875fe;
+  --color-accent-ligth: #dad9fb;
+  --color-accent-dark: #4946b4;
+  --color-title: #666666;
+  --color-text: #85859b;
+  --color-light-grey: #ebebeb;
+  --color-grey: #c0c0c0;
 
-    --container-width: 1110px;
-    --container-padding-x: 10px;
+  --container-width: 1110px;
+  --container-padding-x: 10px;
 
-    --transition-duration: 0.4s;
+  --transition-duration: 0.4s;
 
-    --header-height: 80px;
-
+  --header-height: 80px;
 }
