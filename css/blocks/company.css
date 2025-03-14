@@ -2,18 +2,33 @@
   background-color: var(--color-light-grey);
 }
 .company-images {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 30px;
   padding-block: 90px;
-  flex-wrap: wrap;
 }
 .company-image {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  grid-column: span 3;
+}
+.company-flex{
   border: 1px solid #c4c4c4;
   width: 255px;
   height: 135px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-inline: 20px;
+}
+
+.company-img{
+  max-width: 100%;
+  min-height: 100%;
+  object-fit: contain;
+}
+
+@media (max-width: 1110px) {
+  .company-flex{
+    height: 80px;
+    width: 150px;
+  }
+  .company-images{
+    padding-block: 60px;
+  }
 }
