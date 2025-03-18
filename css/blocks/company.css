@@ -3,11 +3,12 @@
 }
 .company-images {
   padding-block: 90px;
+  place-items: center;
 }
 .company-image {
   grid-column: span 3;
 }
-.company-flex{
+.company-flex {
   border: 1px solid #c4c4c4;
   width: 255px;
   height: 135px;
@@ -17,18 +18,27 @@
   padding-inline: 20px;
 }
 
-.company-img{
+.company-img {
   max-width: 100%;
   min-height: 100%;
   object-fit: contain;
 }
 
 @media (max-width: 1110px) {
-  .company-flex{
+  .company-flex {
     height: 80px;
     width: 150px;
   }
-  .company-images{
+  .company-images {
     padding-block: 60px;
+  }
+}
+@media (max-width: 690px) {
+  .company-flex {
+    width: 240px;
+    height: 127px;
+  }
+  .company-image {
+    grid-column: span 6;
   }
 }

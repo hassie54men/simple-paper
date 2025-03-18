@@ -71,9 +71,5 @@ a {
   color: var(--color-light);
 }
 
-@media (max-width: 1100px){
-  .container{
-    max-width: calc(768px + var(--container-padding-x) * 2);
-  }
-
+@media (max-width: 1100px) {
 }

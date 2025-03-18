@@ -13,9 +13,12 @@
   --color-grey: #c0c0c0;
 
   --container-width: 1110px;
-  --container-padding-x: 10px;
+  --container-padding-x: 15px;
 
   --transition-duration: 0.4s;
 
   --header-height: 80px;
+}
+
+@media (max-width: 1100px) {
 }

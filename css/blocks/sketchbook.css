@@ -1,6 +1,6 @@
 .sketchbook {
   padding-top: 90px;
-  position: relative;
+  place-items: center;
 }
 .block-text__article {
   display: flex;
@@ -29,18 +29,37 @@
   grid-column: span 8;
 }
 
-@media (max-width: 1100px){
-   .sketchbook__block-text{
-     grid-column: span 6;
-   }
-  .sketchbook__block-image{
+@media (max-width: 1100px) {
+  .sketchbook {
+    padding-block: 60px;
+  }
+  .sketchbook__block-text {
     grid-column: span 6;
   }
-  .block-text__article{
+  .sketchbook__block-image {
+    grid-column: span 6;
+  }
+  .block-text__article {
     padding-top: 0;
   }
-  .article__title{
+  .article__title {
     font-size: 30px;
     margin-bottom: 20px;
+  }
+}
+@media (max-width: 690px) {
+  .sketchbook__block-image {
+    grid-column: span 12;
+    order: 1;
+  }
+  .sketchbook__block-text {
+    order: 2;
+    grid-column: span 12;
+  }
+  .article__title {
+    font-size: 24px;
+  }
+  .article__description {
+    font-size: 16px;
   }
 }
