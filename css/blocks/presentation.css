@@ -53,9 +53,6 @@
   .presentation-description {
     padding-top: 40px;
   }
-  .presentation-photo {
-    grid-column: span 5;
-  }
   .presentation-image {
     width: 195px;
   }
@@ -64,5 +61,17 @@
   }
   .description-text {
     font-size: 16px;
+  }
+}
+
+@media (max-width: 510px) {
+  .presentation-photo {
+    display: none;
+  }
+  .main-title {
+    font-size: 30px;
+  }
+  .description-text {
+    font-size: 14px;
   }
 }

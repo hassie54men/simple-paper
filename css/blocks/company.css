@@ -42,3 +42,9 @@
     grid-column: span 6;
   }
 }
+@media (max-width: 510px) {
+  .company-flex {
+    width: 150px;
+    height: 80px;
+  }
+}

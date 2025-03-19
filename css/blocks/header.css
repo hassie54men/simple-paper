@@ -5,6 +5,9 @@
   justify-content: space-between;
   padding-block: 28px;
 }
+.header__burger {
+  display: none;
+}
 .header-nav-item {
   display: flex;
   flex-wrap: wrap;
@@ -59,5 +62,29 @@
   }
   .header-nav-item {
     column-gap: 0;
+  }
+}
+@media (max-width: 510px) {
+  .header-nav {
+    display: none;
+  }
+  .header__burger {
+    display: flow;
+  }
+  .header__btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .header {
+    flex-direction: column;
+  }
+  .header-logo {
+    margin-bottom: 27px;
+  }
+  .header {
+    padding-top: 11px;
+    padding-bottom: 15px;
   }
 }

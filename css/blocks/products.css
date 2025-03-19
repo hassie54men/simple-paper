@@ -72,3 +72,8 @@
     padding-block: 60px;
   }
 }
+@media (max-width: 510px) {
+  .products-list {
+    grid-column: span 12;
+  }
+}
